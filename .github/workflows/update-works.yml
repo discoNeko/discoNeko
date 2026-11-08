@@ -1,0 +1,37 @@
+# プロフィール README の作品欄を、discoNeko.github.io が生成した readme/profile.md で更新する
+name: Update works
+
+on:
+  schedule:
+    - cron: "0 21 * * *" # 毎日 06:00 JST
+  workflow_dispatch: # Actions タブから手動実行できる
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-works
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 作品欄を取得
+        run: curl -fsSL --retry 3 "https://disconeko.github.io/readme/profile.md?ts=$(date +%s)" -o "$RUNNER_TEMP/works.md"
+
+      - name: README の作品欄を差し替え
+        run: node .github/scripts/replace-works.mjs "$RUNNER_TEMP/works.md" README.md
+
+      - name: 変更があれば commit
+        run: |
+          if git diff --quiet; then
+            echo "変更なし"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "作品一覧を更新"
+          git push
