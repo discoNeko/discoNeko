@@ -15,9 +15,9 @@ concurrency:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: 作品欄を取得
         run: curl -fsSL --retry 3 "https://disconeko.github.io/readme/profile.md?ts=$(date +%s)" -o "$RUNNER_TEMP/works.md"
