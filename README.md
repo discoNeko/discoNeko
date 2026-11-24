@@ -2,8 +2,8 @@
 <!-- このブロックは discoNeko.github.io の scripts/build-readme.mjs が games.json から生成しています。直接編集しないでください -->
 <p>
 <a href="https://disconeko.github.io/"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://disconeko.github.io/readme/banner-dark.svg?v=a44117b0">
-<img src="https://disconeko.github.io/readme/banner.svg?v=db60cbfd" width="100%" alt="discoNeko works — すべての作品を見る">
+<source media="(prefers-color-scheme: dark)" srcset="https://disconeko.github.io/readme/banner-dark.svg?v=d57d20a6">
+<img src="https://disconeko.github.io/readme/banner.svg?v=14ac3161" width="100%" alt="discoNeko works — すべての作品を見る">
 </picture></a>
 </p>
 
@@ -23,6 +23,12 @@
 
 <table><tr>
 <td width="33%" valign="top">
+<a href="https://disconeko.github.io/talks/macbeth/"><img src="https://disconeko.github.io/thumbs/auto/macbeth.jpg" width="100%" alt="マクベス、引き返せない男の原型"></a>
+<br><a href="https://disconeko.github.io/talks/macbeth/"><b>マクベス、引き返せない男の原型</b></a>
+<br><sub>シェイクスピア『マクベス』のあらすじ、当時の主題、初演当時の客の反応、400年上演され続ける理由を Claude Opus 5.5 に聞いた。客を呼んだのは魔女と亡霊。400年残ったのは、ためらう普通の人が一度殺して引き返せなくなる、という話の原型だった。図解版は予言の仕掛けと400年の受容史つき。</sub>
+<br><sub>ここで読める · 対話 · 11/24 更新</sub>
+</td>
+<td width="33%" valign="top">
 <a href="https://disconeko.github.io/talks/jinpingmei-kouroumu/"><img src="https://disconeko.github.io/thumbs/auto/jinpingmei-kouroumu.jpg" width="100%" alt="金瓶梅と紅楼夢、結末が問うもの"></a>
 <br><a href="https://disconeko.github.io/talks/jinpingmei-kouroumu/"><b>金瓶梅と紅楼夢、結末が問うもの</b></a>
 <br><sub>『金瓶梅』のあらすじとオチを高校生向けに聞き、結びの詩と『紅楼夢』の結末から、死後に何が残るか・生前に何を手放すかという二つの読みにたどり着いた。図解版は2作品ぶん。読み物版には Claude Opus 5.5 による事実確認と補足つき。</sub>
@@ -34,13 +40,7 @@
 <br><sub>ラプラスやマクスウェルのような「○○の悪魔」は他にもいるのかを ChatGPT に聞いたら、物理から AI まで8体が出てきた。図解版は悪魔図鑑。読み物版には Claude Opus 5.5 による事実確認と補足つき。</sub>
 <br><sub>ここで読める · 対話 · 11/15 更新</sub>
 </td>
-<td width="33%" valign="top">
-<a href="https://disconeko.github.io/karaoke-tools/"><img src="https://disconeko.github.io/thumbs/auto/karaoke-tools.jpg" width="100%" alt="karaoke-tools"></a>
-<br><a href="https://disconeko.github.io/karaoke-tools/"><b>karaoke-tools</b></a>
-<br><sub>個人用のカラオケ楽曲管理ツール。</sub>
-<br><sub>外部サイトで公開 · ツール · 11/12 更新</sub>
-</td>
 </tr></table>
 
-<p align="center"><a href="https://disconeko.github.io/"><b>すべての作品を見る(あと 25 件)</b></a></p>
+<p align="center"><a href="https://disconeko.github.io/"><b>すべての作品を見る(あと 27 件)</b></a></p>
 <!-- works:end -->
